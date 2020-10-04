@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo{
+  position: absolute;
+  color: white;
+  margin-left: 10px;
+  margin-top: 12px;
+  font-size: 20px;
+  font-style: italic;
+}
+nav{
+  position: relative;
+  height:7vh;
+  background-color: black;
+  margin: 0 auto;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+}
+
+.nav-links li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.nav-links li:hover{
+background-color: tomato;
+}
+.box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.cards{
+  padding: 0;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 5px 20px 5px  20px;
+  width: 20%;
+  height: 250px;
+  margin: 10px 95px;
+}
+.cards h2{
+  text-align: center;
+  text-decoration: underline;
+  margin: 15px;
+}
+.cards p{
+  display: inline-block;
+  font-style: italic;
+  font-size: 17px;
+  width: 85%;
+  text-align: center;
+  margin-left: 25px;
+}
+hr{
+  border: dotted grey 8px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
